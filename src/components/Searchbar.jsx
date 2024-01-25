@@ -19,6 +19,7 @@ const Searchbar = ({darkmode}) => {
         onChange={(e) => setdata(e.target.value)}
         value={data}
         name="search"
+        autoComplete="off"
       />
       <IoMdSearch
         className={`bg-white text-red-600 h-8 rounded-r-2xl w-6 cursor-pointer outline-dashed  ${darkmode?"outline-white  border-l-2 border-gray-300":"outline-black"} `}
