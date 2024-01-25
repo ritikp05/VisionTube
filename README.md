@@ -15,4 +15,4 @@ A video streaming web application
 - Tailwind Css
 
 ## Checkout Here 
-[Live]{https://vision-tube-sandy.vercel.app/}
+[Live](https://vision-tube-sandy.vercel.app/)
