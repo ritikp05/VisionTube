@@ -8,7 +8,7 @@ const AppContext = ({ children }) => {
   function getMode() {
     const item = localStorage.getItem("mode");
     if (item) {
-      return item;
+      return JSON.parse(item);
     }
     else{
       return false;
@@ -16,7 +16,7 @@ const AppContext = ({ children }) => {
   }
 
   useEffect(() => {
-    localStorage.setItem("mode", darkmode);
+    localStorage.setItem("mode", JSON.stringify(darkmode));
   }, [darkmode]);
 
   return (
