@@ -6,6 +6,7 @@ A video streaming web application
 - Wide range of categories
 - Dark mode
 - Search filters
+- Shimmer effect
 
 
 ## Tech Stack:
